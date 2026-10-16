@@ -28,22 +28,44 @@
       <h1>EcoFlow</h1>
       <p class="subtitulo">Monitoramento ambiental por satélite</p>
       <p>O EcoFlow compara imagens de satélite de áreas protegidas, mostra onde a vegetação mudou e organiza tudo em alertas por criticidade, para a equipe saber por onde começar.</p>
-      <a class="botao" href="https://eco-flow-radar.web.app" target="_blank" rel="noopener">Acessar o MVP</a>
     </div>
   </section>
 
   <section id="problema">
     <div class="container">
       <h2>Problema e solução</h2>
-      <div class="colunas">
-        <div class="caixa problema">
-          <h3>O problema</h3>
-          <p>Fiscalizar grandes áreas em campo é lento e caro. A degradação costuma ser percebida tarde, e as análises de satélite geram falsos positivos que consomem tempo da equipe.</p>
+      <div class="caixa problema">
+        <h3>O problema</h3>
+        <p>Análises manuais de imagens de satélite demandam tempo em demasia.</p>
+      </div>
+      <div class="causas">
+        <h3>Causas e impactos</h3>
+        <div class="cartoes-causas">
+          <article class="cartao-causa">
+            <span class="numero-causa">1</span>
+            <h4>Segmentação de Dados</h4>
+            <p>Dados ficam em sistemas e canais separados.</p>
+          </article>
+          <article class="cartao-causa">
+            <span class="numero-causa">2</span>
+            <h4>Inconsistência Operacional</h4>
+            <p>Falta de padronização do fluxo.</p>
+          </article>
+          <article class="cartao-causa">
+            <span class="numero-causa">3</span>
+            <h4>Desconexão Campo-Gestão</h4>
+            <p>A informação de campo demora a chegar à gestão.</p>
+          </article>
+          <article class="cartao-causa">
+            <span class="numero-causa">4</span>
+            <h4>Falta de Automação</h4>
+            <p>Processos ainda são manuais.</p>
+          </article>
         </div>
-        <div class="caixa solucao">
-          <h3>A solução</h3>
-          <p>O EcoFlow cadastra as áreas em um mapa, compara imagens de datas diferentes, classifica as mudanças em alertas e permite conferir visualmente antes de agir.</p>
-        </div>
+      </div>
+      <div class="caixa solucao">
+        <h3>A solução</h3>
+        <p>O EcoFlow cadastra as áreas em um mapa, compara imagens de datas diferentes, classifica as mudanças em alertas e permite conferir visualmente antes de agir.</p>
       </div>
     </div>
   </section>
@@ -103,19 +125,8 @@
   <section class="fundo-escuro" id="contato">
     <div class="container">
       <h2>Quer ver o EcoFlow funcionando?</h2>
-      <p>Acesse o MVP em modo de demonstração ou deixe seu contato para acompanhar o projeto.</p>
+      <p>Acesse o MVP em modo de demonstração.</p>
       <a class="botao" href="https://eco-flow-radar.web.app" target="_blank" rel="noopener">Acessar o MVP</a>
-
-      <form id="formulario" novalidate>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome">
-
-        <label for="email">E-mail</label>
-        <input type="email" id="email">
-
-        <button class="botao" type="submit">Tenho interesse</button>
-        <p id="mensagem" role="status"></p>
-      </form>
     </div>
   </section>
 
