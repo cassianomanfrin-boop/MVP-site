@@ -11,6 +11,3 @@ menu.addEventListener("click", function (evento) {
     menu.classList.remove("aberto");
   }
 });
-  mensagem.textContent = "Obrigado, " + nome + "! Seu interesse foi registrado.";
-  formulario.reset();
-});
