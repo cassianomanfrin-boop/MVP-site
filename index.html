@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoFlow | Monitoramento ambiental por satélite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container barra">
+    <a class="logo" href="#inicio">EcoFlow</a>
+    <button id="botao-menu" type="button">Menu</button>
+    <nav id="menu">
+      <a href="#problema">Problema e solução</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#publico">Público-alvo</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="inicio">
+    <div class="container">
+      <h1>EcoFlow</h1>
+      <p class="subtitulo">Monitoramento ambiental por satélite</p>
+      <p>O EcoFlow compara imagens de satélite de áreas protegidas, mostra onde a vegetação mudou e organiza tudo em alertas por criticidade, para a equipe saber por onde começar.</p>
+      <a class="botao" href="https://eco-flow-radar.web.app" target="_blank" rel="noopener">Acessar o MVP</a>
+    </div>
+  </section>
+
+  <section id="problema">
+    <div class="container">
+      <h2>Problema e solução</h2>
+      <div class="colunas">
+        <div class="caixa problema">
+          <h3>O problema</h3>
+          <p>Fiscalizar grandes áreas em campo é lento e caro. A degradação costuma ser percebida tarde, e as análises de satélite geram falsos positivos que consomem tempo da equipe.</p>
+        </div>
+        <div class="caixa solucao">
+          <h3>A solução</h3>
+          <p>O EcoFlow cadastra as áreas em um mapa, compara imagens de datas diferentes, classifica as mudanças em alertas e permite conferir visualmente antes de agir.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fundo-claro" id="funcionalidades">
+    <div class="container">
+      <h2>Funcionalidades e benefícios</h2>
+      <div class="cartoes">
+        <article class="cartao">
+          <h3>Dashboard</h3>
+          <p>Mostra áreas monitoradas, alterações detectadas e alertas críticos.</p>
+          <p class="beneficio">Visão geral em segundos.</p>
+        </article>
+        <article class="cartao">
+          <h3>Mapa com camadas</h3>
+          <p>Alterna entre mapa e satélite e exibe áreas e alertas.</p>
+          <p class="beneficio">Localiza o problema no território.</p>
+        </article>
+        <article class="cartao">
+          <h3>Áreas monitoradas</h3>
+          <p>Cadastro de áreas desenhadas no mapa, com prioridade e responsável.</p>
+          <p class="beneficio">Cada área com contexto definido.</p>
+        </article>
+        <article class="cartao">
+          <h3>Centro de alertas</h3>
+          <p>Alertas filtrados por criticidade: crítico, alto, médio e normal.</p>
+          <p class="beneficio">A equipe sabe por onde começar.</p>
+        </article>
+        <article class="cartao">
+          <h3>Verificação visual</h3>
+          <p>Compara o NDVI com a imagem de satélite real.</p>
+          <p class="beneficio">Menos falsos positivos.</p>
+        </article>
+        <article class="cartao">
+          <h3>Relatórios</h3>
+          <p>Histórico de análises, relatórios para imprimir e exportação em GeoJSON.</p>
+          <p class="beneficio">Decisão documentada.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="publico">
+    <div class="container">
+      <h2>Público-alvo</h2>
+      <ul class="lista">
+        <li>Órgãos ambientais municipais e estaduais</li>
+        <li>Gestores de reservas e áreas de preservação</li>
+        <li>Fiscais e equipes de campo</li>
+        <li>Pesquisadores e universidades</li>
+        <li>ONGs ambientais</li>
+        <li>Proprietários rurais</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="fundo-escuro" id="contato">
+    <div class="container">
+      <h2>Quer ver o EcoFlow funcionando?</h2>
+      <p>Acesse o MVP em modo de demonstração ou deixe seu contato para acompanhar o projeto.</p>
+      <a class="botao" href="https://eco-flow-radar.web.app" target="_blank" rel="noopener">Acessar o MVP</a>
+
+      <form id="formulario" novalidate>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+
+        <button class="botao" type="submit">Tenho interesse</button>
+        <p id="mensagem" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>EcoFlow, MVP do hackathon do Projeto Integrador I, turma 1G.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
